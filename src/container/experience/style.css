@@ -1,0 +1,30 @@
+.App__experience-volunteer,.App__experience-company{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    flex-wrap:wrap;
+}
+
+#title{
+    display:flex;
+    font-family:var(--text-title);
+    justify-content:center;
+    align-items:center;
+}
+
+#title h1{
+    letter-spacing:-0.02em;
+}
+.App__experience-volunteer_work,.App__experience-company_work{
+    display:flex;
+    flex:2;
+    justify-content:space-between;
+    flex-direction:column;
+    font-family:var(--text-body);
+    font-size:18px;
+    line-height:30px;
+}
+
+.App__experience-volunteer_work p,.App__experience-company_work p{
+    font-weight:600;
+}

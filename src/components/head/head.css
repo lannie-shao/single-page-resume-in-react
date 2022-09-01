@@ -1,0 +1,44 @@
+.App__heading{
+    display:flex;
+  }
+  
+  .App__heading-title, .App__heading-education{
+    margin-top:1rem;
+    justify-content:center;
+    align-items:center;
+  }
+  
+  .App__heading-title h1,.App__heading-education h1{
+    text-align:center;
+    color:var(--gradient-text);
+    font-family:var(--text-title);
+  
+  }
+  
+  .App__heading-skills, .App__heading-school{
+    font-family:var(--text-body);
+    margin-top:0;
+    display:flex;
+    flex-direction:column;
+    flex-wrap:no-wrap;
+  }
+  
+  .App__heading-skills li,.App__heading-school li{
+    font-size:18px;
+    line-height:30px;
+  }
+  
+  .App__heading-school li{
+   font-weight:900;
+  }
+  
+  .App__heading-school p{
+    font-weight:300;
+  }
+
+  @media (max-width:550px){
+    .App__heading{
+      display:flex;
+      flex-direction:column;
+    }
+  }

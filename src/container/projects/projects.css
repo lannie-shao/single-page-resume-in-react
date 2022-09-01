@@ -1,0 +1,38 @@
+.App__experience-container{
+    display:flex;
+    flex-direction:column;
+}
+
+hr{
+    margin:1rem;
+}
+.App__experience-title{
+    font-family:var(--text-title);
+    display:flex;
+    justify-content:center;
+    align-item:center;
+    width:100%;
+}
+
+.App__experience-projects_HR,.App__experience-projects_Pay,.App__experience-projects_Web{
+font-family:var(--text-body);
+font-size:18px;
+line-height:30px;
+}
+
+.App__experience-projects_HR-steps{
+   display:flex;
+   justify-content:space-around;
+   flex-wrap:wrap;
+}
+.App__experience-projects_HR-steps p{
+   display:flex;
+   flex-direction:column;
+   justify-content:center;
+}
+.App__experience-projects_HR img{
+    width:400px;
+    height:250px;
+    margin:1rem 0;
+}
+

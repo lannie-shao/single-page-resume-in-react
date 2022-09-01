@@ -1,0 +1,53 @@
+.App__navbar {
+    font-family:var(--text-tile);
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-end;
+  }
+  
+  .App__navbar-head{
+   display:flex;
+   flex:1;
+   flex-direction:column;
+   justify-content:center;
+   align-items:center;
+   line-height:45px;
+   font-size:25px;
+  }
+
+  .App__navbar-details{
+    font-family:var(--text-body);
+    display:flex;
+    flex:2;
+    flex-direction:column;
+    justify-content:flex-end;
+    font-size:22px;
+    font-weight:500;
+    align-items:center;
+  }
+
+  .App__navbar-details div{
+    display:flex;
+    line-height:2rem;
+    align-items:center;
+  }
+
+  @media (max-width:550px){
+    .App__navbar {
+      font-family:var(--text-tile);
+      display:flex;
+      flex-direction:column;
+    }
+    .App__navbar-head{
+      line-height:40px;
+      font-size:22px;
+    }
+    .App__navbar-details{
+      font-size:18px;
+      font-weight:500;
+    }
+    .App__navbar-details div{
+      line-height:28px;
+    }
+  }
+  

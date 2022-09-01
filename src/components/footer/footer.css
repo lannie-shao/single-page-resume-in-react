@@ -1,0 +1,18 @@
+.App__footer {
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+
+}
+.App__footer h1{
+    font-family:var(--text-tile);
+    flex:1
+}
+.App__footer p{
+    font-family:var(--text-body);
+    font-size:22px;
+    font-weight:500;
+    align-items:center;
+    justify-content:flex-end;
+    flex:2
+}
