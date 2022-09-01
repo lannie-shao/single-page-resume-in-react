@@ -16,7 +16,7 @@ const Navbar = () => {
     <div className='App__navbar-details'>
     <div>
     <GiVibratingSmartphone />
-    <p>0406 144 995</p>
+    <p>0412 345 678</p>
     </div>
 
    <div>
