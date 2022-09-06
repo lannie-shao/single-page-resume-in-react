@@ -8,7 +8,7 @@ const Company = () => {
     <h1 id="title">Working Experience</h1>
     <hr/>
     <div className='App__experience-company_work section__margin'>
-    <h3>07/2008-2/2014 UTStarcom (NASDAQ: UTSI)</h3>
+    <h3>07/2005-2/2014 UTStarcom (NASDAQ: UTSI)</h3>
       <ul>                  
         <p>Compliance Test Engineer Responsibilities:</p>
         <li>Assisted with the environment and mechanical tests.                    

@@ -1,38 +1,83 @@
 .App__experience-container{
-    display:flex;
-    flex-direction:column;
+width:100%;
 }
 
 hr{
     margin:1rem;
 }
+
+.App__experience-projects{
+    display:flex;
+    flex-direction:column;
+}
+
 .App__experience-title{
     font-family:var(--text-title);
     display:flex;
     justify-content:center;
     align-item:center;
     width:100%;
+    line-height:80px;
 }
 
 .App__experience-projects_HR,.App__experience-projects_Pay,.App__experience-projects_Web{
 font-family:var(--text-body);
 font-size:18px;
-line-height:30px;
+line-height:40px;
 }
 
 .App__experience-projects_HR-steps{
    display:flex;
-   justify-content:space-around;
-   flex-wrap:wrap;
-}
-.App__experience-projects_HR-steps p{
-   display:flex;
    flex-direction:column;
-   justify-content:center;
+   justify-content:space-around;
+   align-items:cneter;
+   padding:1rem 4rem;
 }
-.App__experience-projects_HR img{
-    width:400px;
-    height:250px;
-    margin:1rem 0;
+.App__experience-projects_HR-steps_up,
+.App__experience-projects_HR-steps_down{
+    display:flex;
+    justify-content:center;
+   align-items:cneter;
 }
 
+.App__experience-projects_HR-steps-1,
+.App__experience-projects_HR-steps-2,
+.App__experience-projects_HR-steps-3,
+.App__experience-projects_HR-steps-4{
+   display:flex;
+   flex-direction:column;
+   justify-content:space-around;
+   align-items:flex-start;
+   width:100%;
+   height:auto;
+}
+
+.App__experience-projects_HR-steps-1 img,
+.App__experience-projects_HR-steps-2 img,
+.App__experience-projects_HR-steps-3 img,
+.App__experience-projects_HR-steps-4 img{
+    width:90%;
+    justify-content:flex-start;
+    height:200px;
+}
+
+@media (min-width:1150px){
+    .App__experience-projects_HR-steps-1 img,
+.App__experience-projects_HR-steps-2 img,
+.App__experience-projects_HR-steps-3 img,
+.App__experience-projects_HR-steps-4 img{
+    width:500px;
+    justify-content:flex-start;
+    height:200px;
+}
+}
+
+@media (max-width:768px){
+    .App__experience-projects_HR-steps_up,
+    .App__experience-projects_HR-steps_down{
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+       align-items:cneter;
+    }
+}

@@ -28,3 +28,10 @@
 .App__experience-volunteer_work p,.App__experience-company_work p{
     font-weight:600;
 }
+
+@media (max-width:768px){
+    .App__experience-volunteer,.App__experience-company{
+        flex-direction:column;
+    }
+
+}
